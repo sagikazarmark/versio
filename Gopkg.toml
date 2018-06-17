@@ -25,6 +25,14 @@
 #   unused-packages = true
 
 
+[[constraint]]
+  name = "github.com/Masterminds/semver"
+  version = "1.4.2"
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "0.0.3"
+
 [prune]
   go-tests = true
   unused-packages = true

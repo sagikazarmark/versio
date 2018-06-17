@@ -26,7 +26,7 @@ before_install: curl https://raw.githubusercontent.com/golang/dep/master/install
 
 install: dep ensure -vendor-only
 
-script: go test
+script: go test ./...
 
 deploy:
     provider: script
