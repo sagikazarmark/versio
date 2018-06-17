@@ -1,6 +1,6 @@
 # Versio
 
-[![Build Status](https://img.shields.io/travis/sagikazarmark/versio.svg?style=flat-square)](https://travis-ci.org/sagikazarmark/versio)
+[![Build Status](https://travis-ci.com/sagikazarmark/versio.svg?branch=master)](https://travis-ci.com/sagikazarmark/versio)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sagikazarmark/versio?style=flat-square)](https://goreportcard.com/report/github.com/sagikazarmark/versio)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/sagikazarmark/versio)
 
