@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sagikazarmark/versio/pkg/cmd"
+	"github.com/sagikazarmark/versio/internal/cmd"
 )
 
 const (
