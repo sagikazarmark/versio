@@ -22,16 +22,14 @@ matrix:
     allow_failures:
         - go: tip
 
-before_install: curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+before_script: make vendor
 
-install: dep ensure -vendor-only
-
-script: go test ./...
+script: make test
 
 deploy:
     provider: script
     skip_cleanup: true
-    script: curl -sL https://git.io/goreleaser | bash
+    script: make release
     on:
         tags: true
         condition: $TRAVIS_OS_NAME = linux && $TRAVIS_GO_VERSION =~ ^1\.11(\.(x|[0-9]+))?$
